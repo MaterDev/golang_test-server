@@ -7,6 +7,13 @@ import (
 )
 
 // Basic health check
+	/*
+	*fiber.Ctx is a pointer to the context of the current HTTP request in the Fiber framework.
+	It holds the HTTP request details, path parameters, headers, and also provides methods 
+	to send HTTP responses. Through *fiber.Ctx, you can access request information, 
+	manipulate the response, send data back to the client, and more.
+	For example, calling c.JSON() on a *fiber.Ctx object `c` sends a JSON response to the client.
+	*/
 func HealthCheck(c *fiber.Ctx) error {
 	return c.SendStatus(200)
 }

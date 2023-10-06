@@ -1,6 +1,6 @@
 module github.com/materdev/golang_test-server
 
-go 1.21.1
+go 1.21
 
 require (
 	dario.cat/mergo v1.0.0 // indirect
