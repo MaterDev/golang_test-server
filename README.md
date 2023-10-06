@@ -24,13 +24,16 @@ Fiber is a web framework for Go that's designed to be fast and flexible. It's in
 1. Install Go and set up your Go workspace.
 2. Clone the repository.
 3. Navigate to the project root and install dependencies using `go mod download`.
-4. Run the server using `go run main.go`.
-
-### Using Docker
-
-1. Build the Docker image: `docker build -t golang_test-server .`
-2. Run the Docker container: `docker run -p 8080:8080 golang_test-server`
+4. Build the project using `make build`.
+5. Run the server using `make run`.
 
 ### Live Reloading (using Air)
 
-If you want to use live reloading during development, ensure you have [Air](https://github.com/cosmtrek/air) installed and use the configuration provided in `air.toml`.
+For live reloading during development:
+1. Ensure you have [Air](https://github.com/cosmtrek/air) installed.
+2. Use the following command: `make air`.
+
+### Using Docker
+
+1. Build the Docker image using `make docker-build`.
+2. Run the Docker container using `make docker-run`.
