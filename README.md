@@ -6,6 +6,8 @@ A JSON CRUD API built using the Go programming language and the [Fiber](https://
 
 Fiber is a web framework for Go that's designed to be fast and flexible. It's inspired by Express, a popular web framework for Node.js, and aims to provide a similar interface for developers while taking advantage of Go's performance benefits. Fiber offers a robust set of features for web development, including middleware support, routing, and templating, while keeping a minimal footprint and optimized performance.
 
+> _This example server in this repo contains a set of endpoints that respond with the results of various dice rolls from D4 to D20._
+
 ## Project Structure
 
 - `main.go`: The main entry point for the server.
