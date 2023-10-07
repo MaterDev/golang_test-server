@@ -18,7 +18,7 @@ clean:
 
 # Build a Docker image
 docker-build:
-	@docker build -t golang-server .
+	@docker build -t golang-test-server-fiber .
 
 # Run the Docker image
 docker-run:
